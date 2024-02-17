@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+.big-container{
+    max-width: 1300px;
+    margin:auto;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navbar .logo{
+    font-size: 25px;
+    color:orangered;
+    font-weight: 600;
+}
+
+.navbar .nav{
+    display: flex;
+    gap:40px;
+}
+
+.navbar .nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar .nav a:hover{
+    color: orangered;
+}
+.text{
+    margin-top: 70px;
+    text-align: center;
+}
+.text h1{
+    padding: 6px;
+}
+.text p{
+    padding: 6px;
+}
