@@ -1,61 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,1,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/Product.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/Product.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    
-</head>
-<body>
-    <div class="big-container">
-        <!-- ====== Start Navbar ====== -->
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
         <div class="navbar">
-            <div class="logo">Nubb Store</div>
-            <div class="nav">
-                <a href="index.html">Home</a>
-                <a href="Product.html">Product</a>
-                <a href="About.html">About</a>
-                <a href="Contact.html">Contact</a>
-            </div>
-        </div>
-        <h2  class="center2">All Product</h2>
-        <div class="container">
-            
-            <div>
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-9.jpg" alt="">
-            </div>
-            <div>
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-10.jpg" alt="">
-            </div>
-            <div>
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-11.jpg" alt="">
-            </div>
-            <div>
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-12.jpg" alt="">
-            </div>
-           
+          <div class="logo">
+            <a href="index.html">Nubb Store</a>
           </div>
-          <div class="container">
-            <div class="prod-1">
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-1.jpg" alt="">
-                
-            </div>
-            
-            <div class="prod-2">
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-2.jpg" alt="">
-               
-            </div>
-            
-            <div class="prod-3">
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-3.jpg" alt="">
-              
-            </div>
-            
-            <div class="prod-4">
-                <img src="https://project-ecommerce-lilac.vercel.app/image/product-4.jpg" alt="">
-              
-            </div>
-</body>
+
+          <div class="menu">
+            <nav id="MenuItems">
+              <a href="index.html">Home</a>
+              <a href="Product.html">Products</a>
+              <a href="About.html">About</a>
+              <a href="Contact.html">Contact</a>
+            </nav>
+            <a href="carts.html">
+              <span class="shopping-icon material-symbols-outlined">
+                shopping_bag
+              </span>
+            </a>
+            <button id="btn-toggle">
+              <span class="material-symbols-outlined"> menu </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <nav id="mobile-menu">
+            <a href="index.html">Home</a>
+            <a href="Product.html">Products</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-container">
+      <div class="row my-50">
+        <h2>All Products</h2>
+      </div>
+
+      <div class="grid grid-cols-4">
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.d81DW-NLQZId-K1BK-AZmwHaHa?rs=1&pid=ImgDetMain"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://socceruniformkits.com/wp-content/uploads/2022/03/manchester-united-home-authentic-shirt-2021-22-with-rashford-10-printing_ss4_p-12075260pv-1u-14xnqbq9ylb1tgajg4dyv-880551bc85bf4cf8bedf3035ec6a55bd.jpg"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/R.6c63a88f5f0767632d7ecc05a1ed0ecb?rik=bZwmpH7jvTwX%2fQ&riu=http%3a%2f%2fimages.linnlive.com%2f4fb8ea4070c26d9d86efde539d5609c3%2fb271fd98-36f4-4ef1-9024-3ab2102d58c1.jpg&ehk=kDdJZHOT5lh1wti1Ve%2fSpjTe%2bF8ti7k8imtoQnLiz50%3d&risl=&pid=ImgRaw&r=0"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/R.6b79e11c67ef1538adb3ee7c3f9aba53?rik=JIBqxYtWOyCNwA&riu=http%3a%2f%2fimages.linnlive.com%2ff8cdeb43a8fbb907a6efe8a78fb17e14%2f0fa1f988-22b5-4e54-b81c-7c87ac85f0dd.jpg&ehk=ASy%2fUFNrnT4R1JndQ2prE3lybQAAqHYoHLoI4wy4wS4%3d&risl=&pid=ImgRaw&r=0"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/R.6364fad45486068653260b2462eaa6fb?rik=9eSwBl4x6ibNhw&riu=http%3a%2f%2fimages.linnlive.com%2f4fb8ea4070c26d9d86efde539d5609c3%2f7fb5addd-5cc7-4f65-ba72-23073af3058d.jpg&ehk=%2bWO9QI8%2bSBQtOlaQzGy3e1n60XLAcYW%2fEOJNKL37ukE%3d&risl=&pid=ImgRaw&r=0"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/R.5683504fe482abd3ba560a24e9dbf6ea?rik=RZ7%2fHu6yWnD5nQ&pid=ImgRaw&r=0"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.P9j9rEX9kyqhzS3wd3FF4wHaHa?w=1425&h=1425&rs=1&pid=ImgDetMain"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/736x/e5/e8/5b/e5e85b85a6d0938c1c48fea7fc6f718f--nike-football-football-shirts.jpg"
+            alt=""
+          />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$500.00</p>
+        </div>
+      </div>
+
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p class="copyright">Copyright &copy; 2024 - NUBB Store</p>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
