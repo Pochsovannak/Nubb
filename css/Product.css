@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,22 +11,21 @@
   padding-right: 25px;
 }
 
-.my-50{
+.my-50 {
   margin: 50px auto;
 }
 
-.grid.grid-cols-4{
+.grid.grid-cols-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  
 }
 
 .grid .card {
   transition: all 0.3s;
 }
 
-.grid .card img{
+.grid .card img {
   max-width: 100%;
 }
 
@@ -41,7 +40,6 @@
 .grid .card:hover {
   transform: translateY(-5px);
 }
-
 
 .page-btn {
   margin: 80px auto;
@@ -62,19 +60,22 @@
   background: #ff523b;
   color: #ffffff;
 }
+.page-btn span a {
+  text-decoration: none;
+}
 
-@media screen and (max-width: 992px){
-  .grid.grid-cols-4{
-      grid-template-columns: repeat(3, 1fr);
+@media screen and (max-width: 992px) {
+  .grid.grid-cols-4 {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (max-width: 780px){
-  .grid.grid-cols-4{
-      grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 780px) {
+  .grid.grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 600px){
-  .grid.grid-cols-4{
-      grid-template-columns: repeat(1, 1fr);
+@media screen and (max-width: 600px) {
+  .grid.grid-cols-4 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
